@@ -1,1 +1,1 @@
-alert('laravel ok');
+/* alert('laravel ok'); */
