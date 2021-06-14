@@ -1,3 +1,4 @@
+/* variabili */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,4 +7,54 @@
 
 body {
   font-family: sans-serif;
+}
+
+/* site header */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: monospace;
+}
+
+.logo h3 {
+  margin: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: large;
+}
+
+.link i {
+  margin: 5px;
+}
+
+.link button {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.googlelog {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+
+.googlelog img {
+  width: 20px;
 }
