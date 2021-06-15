@@ -1,0 +1,17 @@
+.jumbotron{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.jumbotron h1{
+    font-size: $h1jumbosize;
+
+}
+
+.jumb_img{
+    width: 100%;
+    height: 100%;
+}

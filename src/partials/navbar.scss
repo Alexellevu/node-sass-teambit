@@ -1,4 +1,4 @@
-/* site header */
+/* navbar*/
 nav{
     display: flex;
     flex-direction: row;
@@ -6,6 +6,7 @@ nav{
     align-items: center;
     padding: 5px 10px;
     border-bottom: 1px solid black;
+    
 }
 
 .logo{
@@ -13,7 +14,9 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family:monospace;
+    font-family: 'Roboto', sans-serif;
+
+    
 }
 
 .logo h3{
@@ -24,7 +27,7 @@ nav{
 .link a{
    text-decoration: none;
    margin: 10px;
-   font-size: large;
+
 }
 
 .link i{
